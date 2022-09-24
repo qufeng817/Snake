@@ -23,7 +23,7 @@ class ScorePanel {
         this.scoreEle.innerHTML= ++this.score + '';
         if(this.score % this.upScore ==0) {
             this.levelUp();
-            alert('  小葵最棒啦！！ ')
+            alert('  小曲真棒！！ ')
         }
     }
 
